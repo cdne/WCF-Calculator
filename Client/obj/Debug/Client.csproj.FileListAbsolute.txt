@@ -1,0 +1,2 @@
+C:\Users\Claudiu\source\repos\WCF-Calculator\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Users\Claudiu\source\repos\WCF-Calculator\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
