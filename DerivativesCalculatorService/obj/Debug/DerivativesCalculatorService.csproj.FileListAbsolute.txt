@@ -3,4 +3,3 @@ C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\bin\De
 C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\obj\Debug\DerivativesCalculatorService.csproj.CoreCompileInputs.cache
 C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\obj\Debug\DerivativesCalculatorService.dll
 C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\obj\Debug\DerivativesCalculatorService.pdb
-C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\obj\Debug\DerivativesCalculatorService.csprojAssemblyReference.cache
