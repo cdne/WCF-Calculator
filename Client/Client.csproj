@@ -51,5 +51,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DerivativesCalculatorService\DerivativesCalculatorService.csproj">
+      <Project>{57e248a7-854d-4126-b9d8-53140a38ff2f}</Project>
+      <Name>DerivativesCalculatorService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

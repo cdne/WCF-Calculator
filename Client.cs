@@ -11,14 +11,14 @@
 
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ServiceModel.ServiceContractAttribute(ConfigurationName = "IDerivativesCalculator")]
+[System.ServiceModel.ServiceContractAttribute(ConfigurationName="IDerivativesCalculator")]
 public interface IDerivativesCalculator
 {
-
-    [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IDerivativesCalculator/CalculateDerivative", ReplyAction = "http://tempuri.org/IDerivativesCalculator/CalculateDerivativeResponse")]
+    
+    [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDerivativesCalculator/CalculateDerivative", ReplyAction="http://tempuri.org/IDerivativesCalculator/CalculateDerivativeResponse")]
     decimal CalculateDerivative(int days, string[] symbols, string[] functions);
-
-    [System.ServiceModel.OperationContractAttribute(Action = "http://tempuri.org/IDerivativesCalculator/CalculateDerivative", ReplyAction = "http://tempuri.org/IDerivativesCalculator/CalculateDerivativeResponse")]
+    
+    [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IDerivativesCalculator/CalculateDerivative", ReplyAction="http://tempuri.org/IDerivativesCalculator/CalculateDerivativeResponse")]
     System.Threading.Tasks.Task<decimal> CalculateDerivativeAsync(int days, string[] symbols, string[] functions);
 }
 
@@ -31,36 +31,36 @@ public interface IDerivativesCalculatorChannel : IDerivativesCalculator, System.
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
 public partial class DerivativesCalculatorClient : System.ServiceModel.ClientBase<IDerivativesCalculator>, IDerivativesCalculator
 {
-
+    
     public DerivativesCalculatorClient()
     {
     }
-
-    public DerivativesCalculatorClient(string endpointConfigurationName) :
+    
+    public DerivativesCalculatorClient(string endpointConfigurationName) : 
             base(endpointConfigurationName)
     {
     }
-
-    public DerivativesCalculatorClient(string endpointConfigurationName, string remoteAddress) :
+    
+    public DerivativesCalculatorClient(string endpointConfigurationName, string remoteAddress) : 
             base(endpointConfigurationName, remoteAddress)
     {
     }
-
-    public DerivativesCalculatorClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) :
+    
+    public DerivativesCalculatorClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
             base(endpointConfigurationName, remoteAddress)
     {
     }
-
-    public DerivativesCalculatorClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) :
+    
+    public DerivativesCalculatorClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
             base(binding, remoteAddress)
     {
     }
-
+    
     public decimal CalculateDerivative(int days, string[] symbols, string[] functions)
     {
         return base.Channel.CalculateDerivative(days, symbols, functions);
     }
-
+    
     public System.Threading.Tasks.Task<decimal> CalculateDerivativeAsync(int days, string[] symbols, string[] functions)
     {
         return base.Channel.CalculateDerivativeAsync(days, symbols, functions);
