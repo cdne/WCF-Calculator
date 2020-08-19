@@ -42,9 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
-    <Compile Include="IDerivativesCalculator.cs" />
+    <Compile Include="App_Code\Calculator.cs" />
+    <Compile Include="App_Code\IDerivativesCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Service.svc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
