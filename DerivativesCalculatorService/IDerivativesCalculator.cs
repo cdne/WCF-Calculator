@@ -11,6 +11,6 @@ namespace DerivativesCalculatorService
     public interface IDerivativesCalculator
     {
         [OperationContract]
-        Decimal CalculateDerivative(int days, string[] symbols, string[] functions);
+        decimal CalculateDerivative(int days, string[] symbols, string[] functions);
     }
 }

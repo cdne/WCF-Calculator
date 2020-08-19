@@ -1,6 +1,6 @@
 C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\bin\Debug\DerivativesCalculatorService.dll
 C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\bin\Debug\DerivativesCalculatorService.pdb
-C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\obj\Debug\DerivativesCalculatorService.csprojAssemblyReference.cache
 C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\obj\Debug\DerivativesCalculatorService.csproj.CoreCompileInputs.cache
 C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\obj\Debug\DerivativesCalculatorService.dll
 C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\obj\Debug\DerivativesCalculatorService.pdb
+C:\Users\Claudiu\source\repos\WCF-Calculator\DerivativesCalculatorService\obj\Debug\DerivativesCalculatorService.csprojAssemblyReference.cache

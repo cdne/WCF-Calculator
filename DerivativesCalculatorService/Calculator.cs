@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DerivativesCalculatorService.App_Code
+namespace DerivativesCalculatorService
 {
-    internal class Calculator : IDerivativesCalculator
+    public class Calculator : IDerivativesCalculator
     {
         #region IDerivativesCalculator Members
         public decimal CalculateDerivative(int days, string[] symbols, string[] functions)
